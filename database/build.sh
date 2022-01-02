@@ -11,7 +11,7 @@ db_name="donghaoran43"
 docker container stop ${contaienr_name}
 docker container rm ${contaienr_name}
 sleep 1
-
+docker network create velcome_net
 # docker run --name ${contaienr_name} -d -p 18080:80 velcom
 docker run \
     --detach \

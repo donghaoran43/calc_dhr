@@ -9,7 +9,6 @@ db_name="database"
 docker build -t ${contaienr_name} .
 docker container stop ${contaienr_name}
 docker container rm ${contaienr_name}
-
 sleep 1
 docker run \
     --name ${contaienr_name} \
