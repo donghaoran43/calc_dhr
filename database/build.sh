@@ -23,7 +23,7 @@ docker run \
     --network velcome_net \
     mariadb:latest
 
-# docker exec -ti ${contaienr_name} /bin/bash
+
 #不需要建表，sqlAlchemy会自动建立
 mysql -u root -h "127.0.0.1" -P 3306 -p${db_rootpass} -e "
 CREATE DATABASE ${db_name};
