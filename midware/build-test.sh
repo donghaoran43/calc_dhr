@@ -1,6 +1,5 @@
 #!/bin/bash
 
-#!/bin/bash
 
 contaienr_name="midware"
 
